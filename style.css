@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Noto+Sans:wght@100;200;400&display=swap');
+
+ .bg-custom{
+    background-color:#CEEDC7;
+ }
+
+ .navbar-nav .nav-link {
+    font-size: 18px;
+    color: #3C6255;
+    font-family: 'EB Garamond', serif;
+
+  }
+  .navbar-nav .nav-link:hover {
+    color: #F7A4A4;
+  }
+
+  .carousel-img {
+    height: 600px; 
+    width: 800px;
+    object-fit: cover;
+    
+  }
+  .material-symbols-outlined{
+    line-height: 0px;
+   
+  }
+
+  .carousel-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(rgba(119, 118, 118, 0.5), rgba(0, 0, 0, 0.5));
+  }
