@@ -35,7 +35,7 @@
 
   
   .navbar-nav .nav-link:hover {
-    color:#635666;
+    color: black;
   }
 
 
@@ -79,7 +79,7 @@
   }
   
   .navbutton:hover {
-    border: 1px solid white;
+    border-bottom: 1px solid black;
   }
   
   .navbutton:active {
@@ -117,3 +117,31 @@
     color: #839AA8;
     
   }  
+
+  .searchcustom {
+    background: none;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+  }
+
+  .linker {
+    border: 1px solid white;
+  }
+  
+  .linker:hover {
+    /* border: 1px solid #CCEABB; */
+    /* background: #CCEABB */
+    border-bottom: 1px solid black;
+  }
+
+  .superLinker {
+    /* border: 1px solid; */
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2%;
+  }
+
+  
