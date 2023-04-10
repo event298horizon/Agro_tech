@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="../indeximg/logo.png" type="image/png">
+  <title>FasalGuru</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <link href="../styles/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <!--navbar section-->
+  <section id="navbar">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+      <div class="container-fluid my-2">
+        <a class="navbar-brand mx-3" href="#"><img src="../indeximg/logo.png" width="30" height="30"
+            class="d-inline-block align-top" alt="Logo"> FasalGuru</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+          <ul class="navbar-nav ">
+
+            <li class="nav-item mx-3">
+              <button class="navbutton navibutton"><a class="nav-link active bttn" aria-current="page"
+                  href="index.html">Home</a></button>
+            </li>
+            <li class="nav-item mx-3">
+              <button class="navbutton navibutton"><a class="nav-link bttn" href="#about">About</a></button>
+            </li>
+            <li class="nav-item mx-3">
+              <button class="navbutton navibutton"><a class="nav-link bttn" href="#contact">Contact</a></button>
+            </li>
+          </ul>
+        </div>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown2">
+          <ul class="navbar-nav superLinker">
+            <li class="nav-item mx-2 linker">
+              <a class="nav-link reg" href="./login.html" style="font-size:1.1rem;">Sign in <i class="fa fa-user-circle"
+                  aria-hidden="true" style="margin-left: 4px; "></i></a>
+            </li>
+
+            <li class="nav-item mx-2 linker">
+              <a class="nav-link reg" href="#" style="font-size:1.1rem;">Donate <i class="fa fa-credit-card-alt"
+                  aria-hidden="true" style="margin-left: 4px;"></i></a>
+            </li>
+            <li class="nav-item mx-2 linker">
+              <a class="nav-link reg" href="#" style="font-size:1.1rem;">Shop <i class="fa fa-shopping-cart"
+                  aria-hidden="true" style="margin-left: 4px;"></i></a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+
+
+    <nav class="navbar searchcustom py-2 ">
+      <div class="container-fluid justify-content-end py-1">
+        <form class="d-flex mx-2" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="width:25rem;">
+          <button type="button" class="btn btn-success">Search</button>
+        </form>
+      </div>
+    </nav>
+  </section>
+
+  <!--carousel section-->
+  <section id="maincarousel">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../indeximg/greenfield.jpg" class="d-block w-100 carousel-img" alt="crops">
+          <div class="carousel-caption">
+            <h3>Farm-fresh goodness, delivered to your doorstep!</h3>
+
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="../indeximg/womanfarmer.jpg" class="d-block w-100 carousel-img" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="../indeximg/farmings.jpg" class="d-block w-100 carousel-img" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+
+  <!--About Section-->
+  <section id="about">
+
+
+    <div class="row container-fluid my-4 px-5">
+      <h1 style="margin-top:2rem;margin-left:25px;"> About us</h1>
+      <div class="row second">
+        <div class="col">
+          <img src="../indeximg/foodfood.jpg" alt="foodimage" style="width:600px;   max-width: 100%;
+     height: auto;
+     display: block;
+     margin-top: 50px;">
+        </div>
+
+        <div class="col para">
+
+          <h2> Empowering <br> Agriculture with <br>Innovative Solutions</h2><br>
+          We are dedicated to give farmers increased productivity and efficiency by providing them with cutting-edge
+          technological solutions.Our website offers a wide range of resources and tools to help farmers make informed
+          decisions and improve their farming practices.
+          <br>
+          <br>
+          <h3>Export and Delivery Services:</h3>
+          Our team works hard to ensure that farmers have access to markets beyond their local communities. We offer
+          export services that connect farmers with buyers from around the world, allowing them to increase their income
+          and improve their livelihoods. In addition, we provide delivery services to ensure that products are
+          transported safely and efficiently.
+          <br>
+
+        </div>
+      </div>
+
+      <div class="row second">
+
+        <div class="col">
+          <img src="../indeximg/tractor.jpeg" alt="foodimage" style="width:600px;   max-width: 100%;
+      height: auto;
+      display: block;
+      margin-top: 50px;">
+        </div>
+
+        <div class="col para">
+
+          <h3>Donation Program:</h3>
+          We understand that farming can be a difficult and unpredictable profession, and we want to support farmers
+          through the ups and downs. That's why we have a donation program that provides assistance to farmers during
+          critical situations, such as natural disasters, crop failures, or unexpected expenses. We believe that
+          supporting farmers is essential to building resilient communities, and we are committed to doing our part.
+          <br>
+          <br>
+
+          <h3>Crop and Season Information:</h3>
+          We also want to help farmers improve their farming practices and maximize their yields. Our website provides
+          information about different crops, including planting and harvesting schedules, recommended fertilizers, and
+          pest control measures. We also provide seasonal updates and weather forecasts, so that farmers can plan their
+          operations accordingly.
+
+          Thank you for choosing our agricultural website for your farming needs. We are dedicated to supporting farmers
+          and building sustainable agricultural communities, and we look forward to serving you. If you have any
+          questions or feedback, please don't hesitate to contact us.
+
+
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous">
+  </script>
+  <script src="script.js"></script>
+</body>
+
+</html>
