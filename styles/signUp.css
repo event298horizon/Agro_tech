@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -12,6 +13,51 @@ body {
     /* background: #eaeff4; */
     background: url("../indeximg/greenfield.jpg");
     background-size: cover;
+}
+
+.success {
+    background-color: #2aa15f;
+    /* border: 1px solid; */
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    color: white;
+    display: none;
+}
+
+.success h3 {
+    margin-top: -2%;
+    font-weight: lighter;
+}
+
+.continue {
+
+    background-color: #2aa15f;
+    /* Green */
+    border: 1px solid white;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border-radius: 20px;
+    margin-bottom: 15%;
+}
+
+.continue:hover {
+    background-color: white;
+    /* Green */
+    color: #2aa15f;
 }
 
 .wrapper {
@@ -58,12 +104,14 @@ body {
         flex-direction: column;
         box-shadow: none;
     }
+
     .login .col-left,
     .login .col-right {
         width: 100%;
         margin: 0;
         clip-path: none;
     }
+
     .login .col-right {
         padding: 30px;
     }
@@ -188,4 +236,8 @@ body {
 .login .login-form input[type=submit]:hover {
     color: #ffffff;
     box-shadow: inset 250px 0 0 0 #2aa15f;
+}
+
+#passIssue {
+    display: none;
 }
