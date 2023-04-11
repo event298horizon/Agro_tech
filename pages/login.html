@@ -22,15 +22,34 @@
                 <div class="login-form">
                     <h2>Login</h2>
                     <form action="">
-                        <p> <label>Username/Email address<span>*</span></label> <input type="text" placeholder="Username or Email" required> </p>
-                        <p> <label>Password<span>*</span></label> <input type="password" placeholder="Password" required> </p>
-                        <p> <input type="submit" value="Sign In"> </p>
+                        <p> <label>Username/Email address<span>*</span></label> <input id="id" type="text" placeholder="Username or Email" required> </p>
+                        <p> <label>Password<span>*</span></label> <input id="password" type="password" placeholder="Password" required> </p>
+                        <p> <a href=""><input id="login" type="submit" value="Sign In"></a> </p>
                         <p> <a href="">Forgot password?</a> </p>
                     </form>
                 </div>
             </div>
         </div>
     </div>
-</body>
+    <script>
+        const login = document.querySelector("#login");
+        login.addEventListener('click', (e) => {
 
+            e.preventDefault();
+            const id = document.querySelector('#id').value;
+            const password = document.querySelector('#password').value;
+
+            let matchEmail = localStorage.getItem("email");
+            let matchUsername = localStorage.getItem("username");
+            let matchPassword = localStorage.getItem("password");
+            
+            if((id == matchEmail || id == matchUsername ) && password == matchPassword) {
+                console.log("Matched!");
+            }
+            else {
+                console.log("Not")
+            }
+        })
+    </script>
+</body>
 </html>
