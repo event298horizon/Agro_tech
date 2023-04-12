@@ -26,6 +26,7 @@
                         <p> <label>Username/Email address<span>*</span></label> <input id="id" type="text" placeholder="Username or Email" required> </p>
                         <p> <label>Password<span>*</span></label> <input id="password" type="password" placeholder="Password" required> </p>
                         <p> <a href="./index.html"><input id="login" type="submit" value="Sign In"></a> </p>
+                        <p id = "invalidCreds" style = "display: none"> Invalid credentials </p>
                         <p> <a href="">Forgot password?</a> </p>
                     </form>
                 </div>
@@ -48,6 +49,8 @@
                 console.log("Matched!");
             }
             else {
+                const invalid = document.querySelector('#invalidCreds');
+                invalid.style.display = "block";
                 console.log("Not")
             }
         })
