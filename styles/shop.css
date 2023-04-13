@@ -111,4 +111,37 @@
     border-radius: 0 .375em .375em 0;
   }
   
+  /*import export switch button*/
   
+.button-box {
+	width: 220px;
+  width: -1rem;
+  margin-left : 42rem;
+  margin-right: 5rem;
+  margin-top:5rem ;
+  margin-bottom:1rem ;
+	position: relative;
+	border-radius: 30px;
+	background: #fff
+}
+
+.toggle-btn {
+	padding: 10px 40px;
+	cursor: pointer;
+	background: transparent;
+	border: 0;
+	outline: none;
+	position: relative;
+	text-align: center;
+}
+
+#btn {
+	left: 0;
+	top: 0;
+	position: absolute;
+	width: 110px;
+	height: 100%;
+	background:#198754;
+	border-radius: 30px;
+	transition: .5s;
+}
