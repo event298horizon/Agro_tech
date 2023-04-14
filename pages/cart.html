@@ -62,43 +62,22 @@
     </nav>
 
 
-
-
-    <nav class="navbar searchcustom py-2 ">
-      <div class="container-fluid justify-content-end py-1">
-        <form class="d-flex mx-2" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="width:25rem;">
-          <button type="button" class="btn btn-success">Search</button>
-        </form>
-      </div>
-    </nav>
-  </section>
   
-  <div class="master-container">
+  <div class="master-container ">
     <div class="card cart">
       <label class="title">Your cart</label>
       <div class="products">
         <div class="product">
           <img src="../shopimg/potato.jpg">
           <div>
-            <span>Cheese Burger</span>
-            <p>Extra Spicy</p>
-            <p>No mayo</p>
+            <span>Potato</span>
+            
           </div>
           <div class="quantity">
-            <button>
-              <svg fill="none" viewBox="0 0 24 24" height="14" width="14" xmlns="http://www.w3.org/2000/svg">
-                <path stroke-linejoin="round" stroke-linecap="round" stroke-width="2.5" stroke="#47484b" d="M20 12L4 12"></path>
-              </svg>
-            </button>
-            <label>2</label>
-            <button>
-              <svg fill="none" viewBox="0 0 24 24" height="14" width="14" xmlns="http://www.w3.org/2000/svg">
-                <path stroke-linejoin="round" stroke-linecap="round" stroke-width="2.5" stroke="#47484b" d="M12 4V20M20 12H4"></path>
-              </svg>
+            <input class="w-25 p-lg-2" value="1" type="number" style="border-radius: 4px; height: 30%;">
             </button>
           </div>
-          <label class="price small">$23.99</label>
+          <label class="price small">₹32</label>
         </div>
       </div>
     </div>
@@ -107,7 +86,8 @@
       <label class="title">Apply coupons</label>
       <form class="form">
           <input type="text" placeholder="Apply your coupons here" class="input_field">
-          <button>Apply</button>
+          <button class="--submit">
+            Apply</button>
       </form>
     </div>
   
@@ -115,42 +95,20 @@
       <label class="title">Checkout</label>
       <div class="details">
         <span>Your cart subtotal:</span>
-        <span>47.99$</span>
+        <span>₹32</span>
         <span>Discount through applied coupons:</span>
-        <span>3.99$</span>
+        <span>₹10</span>
         <span>Shipping fees:</span>
-        <span>4.99$</span>
+        <span>₹15</span>
       </div>
       <div class="checkout--footer">
-        <label class="price"><sup>$</sup>57.99</label>
-        <button class="checkout-btn">Checkout</button>
+        <label class="price"><sup>₹</sup>37.95</label>
+        <button class="--submit" style="width:15%;">
+          Checkout</button>
       </div>
     </div>
   </div>
  
-
-
-
-
-
-
-
-
-
-
-
-
-  <!--newsletter-->
-<section id="newsletter">
-    <form class="form  my-5 px-5 " style="margin-top: 5rem;">
-      <span class="title">Subscribe to our newsletter.</span>
-      <p class="description">Receive regular updates on, and be the first to know about any new developments. Plus, you'll get exclusive access to special offers and promotions only available to our subscribers.</p>
-      <div>
-        <input placeholder="Enter your email" type="email" name="email" id="email-address">
-        <button type="submit">Subscribe</button>
-      </div>
-    </form>
-    </section>
     
     
     <footer>
@@ -216,15 +174,6 @@
         integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous">
       </script>
       <script src="clientSide.js"></script>
-      <script>
-        export default {
-          data() {
-            return {
-              value: 50
-            }
-          }
-        }
-      </script>
     </body>
     
     </html>

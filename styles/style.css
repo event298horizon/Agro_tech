@@ -53,7 +53,7 @@
    
   }
 
-  .carousel-item::before {
+  #maincarousel .carousel-item::before {
     content: "";
     position: absolute;
     top: 0;
@@ -300,7 +300,7 @@ box-shadow: 5px 5px 15px -1px rgba(0,0,0,0.75);
   outline: none;
 }
 
-#contactus .form button {
+ .--submit {
   width: 25%;
   padding: 0.625em;
   border-radius: 5px;
@@ -310,7 +310,7 @@ box-shadow: 5px 5px 15px -1px rgba(0,0,0,0.75);
   cursor: pointer;
 }
 
-#contactus .form button:hover {
+ .--submit:hover {
   color:#23c483;
   background-color: white;
   border: 1px dashed #23c483;

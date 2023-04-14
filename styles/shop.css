@@ -110,8 +110,7 @@
   label:last-child span {
     border-radius: 0 .375em .375em 0;
   }
-  
-  /*import export switch button*/
+ /*import export switch button*/
   
 .button-box {
 	width: 220px;
@@ -145,3 +144,4 @@
 	border-radius: 30px;
 	transition: .5s;
 }
+
