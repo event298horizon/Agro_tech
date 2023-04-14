@@ -61,8 +61,8 @@
   
   :focus {
     outline: 0;
-    border-color: #2260ff;
-    box-shadow: 0 0 0 4px #b5c9fc;
+    /* border-color: #2260ff; */
+    /* box-shadow: 0 0 0 4px #b5c9fc; */
   }
   
   .mydict div {
@@ -143,5 +143,47 @@
 	background:#198754;
 	border-radius: 30px;
 	transition: .5s;
+}
+
+#notFeatured {
+  margin: 10vh 0 10vh 0;
+  display: none;  
+}
+
+form {
+  width: 30%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #198754;
+  
+
+}
+
+form p {
+  /* border: 1px solid; */
+  margin: 10% 0 0 0;
+  color: white;
+}
+form p:last-child {
+  margin-bottom: 10%; 
+}
+
+form p label {
+  width: 10vw;
+}
+
+form p input {
+  outline: none;
+  border: none;
+}
+
+#submit {
+  border: none;
+  outline: none;
+  padding: 10% 20%;
+  border-radius: 10px;
 }
 
