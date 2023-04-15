@@ -4,5 +4,5 @@
 // })
 
 const shop = () => {
-    window.location.href = "./shop.html";
+    window.location.href = "./pages/shop.html";
 }
